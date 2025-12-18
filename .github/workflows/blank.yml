@@ -29,6 +29,6 @@ jobs:
       run: |
          skopeo copy docker://docker.getcollate.io/openmetadata/db:1.11.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/db:1.11.3
          skopeo copy docker://docker.elastic.co/elasticsearch/elasticsearch:8.11.4 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/elasticsearch:8.11.4
-         skopeo copy docker.getcollate.io/openmetadata/server:1.11.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/server:1.11.3
-         skopeo copy docker.getcollate.io/openmetadata/ingestion:1.11.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/ingestion:1.11.3
+         skopeo copy docker://docker.getcollate.io/openmetadata/server:1.11.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/server:1.11.3
+         skopeo copy docker://docker.getcollate.io/openmetadata/ingestion:1.11.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/ingestion:1.11.3
         
