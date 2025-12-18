@@ -22,8 +22,8 @@ jobs:
       with:
         registry: registry.cn-hangzhou.aliyuncs.com #注意这里
         username: 58107932@qq.com
-        password: dd~M1985
-        logout: false 
+        password: cn21....
+        logout: false
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
