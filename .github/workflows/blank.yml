@@ -31,5 +31,5 @@ jobs:
          skopeo copy docker://docker.elastic.co/elasticsearch/elasticsearch:8.11.4 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/elasticsearch:8.11.4
          skopeo copy docker://docker.getcollate.io/openmetadata/server:1.11.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/server:1.11.3
          skopeo copy docker://docker.getcollate.io/openmetadata/ingestion:1.11.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/ingestion:1.11.3
-         skopeo copy docker://docker.io/kubesphere/ks-apiserver:v4.1.3 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/ks-apiserver:v4.1.3
+         skopeo copy docker://docker.io/kubesphere/ks-apiserver:v3.4.1 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/ks-apiserver:v3.4.1
         
