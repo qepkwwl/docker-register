@@ -27,5 +27,5 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/sonatype/nexus3:3.68.1 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/nexus3:3.68.1
+         skopeo copy docker://docker.io/library/alpine:3.20.8 docker://registry.cn-hangzhou.aliyuncs.com/ws_openmetadata/alpine:3.20.8
         
